@@ -1,6 +1,7 @@
 
 ## Hi there 👋
-### I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
+I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
+<p><img width="20%" alt="mobile development" src="https://user-images.githubusercontent.com/37637934/124315554-7ad87100-db4a-11eb-9417-2cd45c42ff84.png" ></p>
 
 
 ## 📫 Reach me: 
