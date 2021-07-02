@@ -1,5 +1,6 @@
+
 ## Hi there 👋
-### I'm Joaquim, mobile developer from Brazil 🚀 🌴 🌄
+### I'm Joaquim, mobile developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
 
 
 ##### Locate me!
