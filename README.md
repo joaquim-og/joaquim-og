@@ -29,7 +29,7 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 ## 📈 GitHub Stats:
 <img align="center" alt="Anurag's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=joaquim-og&count_private=true&show_icons=true&theme=onedark" style="max-width:100%;"/>
 
-<img align="center" alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaquim-og&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3&layout=compact" style="max-width:100%;"/>
+<img align="center" alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaquim-og&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3&layout=compact&hide=Java" style="max-width:100%;"/>
 <!-- 
 <img align="center" alt="willianrod's wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=@3e95d67e-e7dd-47ef-8d13-a00eb6f1db76&layout=compact" style="max-width:100%;"/> -->
 
