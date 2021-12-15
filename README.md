@@ -27,8 +27,10 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=Git&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-SonarQube-informational?style=flat&logo=Sonarqube&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Jenkins-informational?style=flat&logo=Jenkins&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Sentry-informational?style=flat&logo=Sentry&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Editor-AndroidStudio-informational?style=flat&logo=AndroidStudio&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Editor-VisualStudioCode-informational?style=flat&logo=VisualStudioCode&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-IntelliJIDEA-informational?style=flat&logo=IntelliJIDEA&logoColor=white&color=2bbc8a)
 
 ## 📈 GitHub Stats:
 <img align="center" alt="Anurag's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=joaquim-og&count_private=true&show_icons=true&theme=onedark" style="max-width:100%;"/>
