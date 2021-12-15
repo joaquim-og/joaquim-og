@@ -12,6 +12,7 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 
 ## 📖🌱 Currently learning:
 [Jetpack Compose](https://codingwithmitch.com/courses/jetpack-compose-mvvm-for-beginners/)
+[Ktor](https://www.udemy.com/share/103tSy3@ptvjV8IPjNiWbWolFShWTBZRdonFUR2Au87kjeT93yoiqjQDzSYBFbw6e3HYW7sj/)
 
 [Kotlin Multi Plataform](https://codingwithmitch.com/)
 
