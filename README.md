@@ -13,24 +13,30 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 ## 📖🌱 Currently learning:
 [Jetpack Compose](https://codingwithmitch.com/courses/jetpack-compose-mvvm-for-beginners/)
 
-[Ktor](https://www.udemy.com/share/103tSy3@ptvjV8IPjNiWbWolFShWTBZRdonFUR2Au87kjeT93yoiqjQDzSYBFbw6e3HYW7sj/)
-
-[Kotlin Multi Plataform](https://codingwithmitch.com/)
+[Ktor](https://pl-coding.com/)
 
 ## ⚡ Technologies & Tools:
 
-![](https://img.shields.io/badge/Code-Kotlin-informational?style=flat&logo=Kotlin&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=Java&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Gradle-informational?style=flat&logo=Gradle&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Firebase-informational?style=flat&logo=Firebase&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=Git&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-SonarQube-informational?style=flat&logo=Sonarqube&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Jenkins-informational?style=flat&logo=Jenkins&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Kotlin-2bbc8a?&style=for-the-badge&logo=kotlin&logoColor=white)
+![](https://img.shields.io/badge/Python-2bbc8a?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Java-2bbc8a?style=for-the-badge&logo=java&logoColor=white)
+![](https://img.shields.io/badge/gradle-2bbc8a?style=for-the-badge&logo=gradle&logoColor=white)
+![](https://img.shields.io/badge/GraphQl-2bbc8a?style=for-the-badge&logo=graphql&logoColor=white)
+![](https://img.shields.io/badge/firebase-2bbc8a?style=for-the-badge&logo=firebase&logoColor=white)
+![](https://img.shields.io/badge/Amazon_AWS-2bbc8a?style=for-the-badge&logo=amazonaws&logoColor=white)
+![](https://img.shields.io/badge/GitHub-2bbc8a?style=for-the-badge&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Sonar%20cloud-2bbc8a?style=for-the-badge&logo=sonarcloud&logoColor=white)
+![](https://img.shields.io/badge/Jenkins-2bbc8a?style=for-the-badge&logo=Jenkins&logoColor=white)
+![](https://img.shields.io/badge/Jira-2bbc8a?style=for-the-badge&logo=Jira&logoColor=white)
+![](https://img.shields.io/badge/Django-2bbc8a?style=for-the-badge&logo=django&logoColor=white)
 ![](https://img.shields.io/badge/Tools-Sentry-informational?style=flat&logo=Sentry&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-AndroidStudio-informational?style=flat&logo=AndroidStudio&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-VisualStudioCode-informational?style=flat&logo=VisualStudioCode&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-IntelliJIDEA-informational?style=flat&logo=IntelliJIDEA&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Android_Studio-2bbc8a?style=for-the-badge&logo=android-studio&logoColor=white)
+![](https://img.shields.io/badge/Visual_Studio_Code-2bbc8a?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![](https://img.shields.io/badge/IntelliJIDEA-2bbc8a.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![](https://img.shields.io/badge/Figma-2bbc8a?style=for-the-badge&logo=figma&logoColor=white)
+![](https://img.shields.io/badge/Adobe%20Photoshop-2bbc8a?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)
+
+
 
 ## 📈 GitHub Stats:
 <img align="center" alt="Anurag's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=joaquim-og&count_private=true&show_icons=true&theme=onedark" style="max-width:100%;"/>
@@ -40,8 +46,6 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 <img align="center" alt="willianrod's wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=@3e95d67e-e7dd-47ef-8d13-a00eb6f1db76&layout=compact" style="max-width:100%;"/> -->
 
 <img align="left" alt="Visits Badge" src="https://badges.pufler.dev/visits/joaquim-og/joaquim-og" style="max-width:100%;"/>
-
-
 
 
 <!--
@@ -57,4 +61,6 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+https://github.com/alexandresanlim/Badges4-README.md-Profile
 -->
