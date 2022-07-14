@@ -45,7 +45,7 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 <!-- 
 <img align="center" alt="willianrod's wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=@3e95d67e-e7dd-47ef-8d13-a00eb6f1db76&layout=compact" style="max-width:100%;"/> -->
 
-<img align="left" alt="Visits Badge" src="https://badges.pufler.dev/visits/joaquim-og/joaquim-og" style="max-width:100%;"/>
+<!-- <img align="left" alt="Visits Badge" src="https://badges.pufler.dev/visits/joaquim-og/joaquim-og" style="max-width:100%;"/> -->
 
 
 <!--
