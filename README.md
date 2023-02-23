@@ -10,6 +10,11 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 <a href="https://github.com/joaquim-og"><img src="https://camo.githubusercontent.com/5c8c95ac48ba4bcc1018a7c80c530bcd4c82794d4655999472465b625e76a17e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769746875622d3030303f7374796c653d666c6174266c6f676f3d476974687562266c6f676f436f6c6f723d7768697465" alt="Github" data-canonical-src="https://img.shields.io/badge/-Github-000?style=flat&amp;logo=Github&amp;logoColor=white" style="max-width:100%;"></a>
 <a href="mailto:joaquim_og@hotmail.com"><img src="https://camo.githubusercontent.com/37a0a7efce77df18e02fbe00ec51bcbd8ae94a8b824143c4449c4977bf5b1d79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f75746c6f6f6b2d3030373844343f7374796c653d666c6174266c6f676f3d4d6963726f736f66742d4f75746c6f6f6b266c6f676f436f6c6f723d7768697465" alt="Outlook" data-canonical-src="https://img.shields.io/badge/-Outlook-0078D4?style=flat&amp;logo=Microsoft-Outlook&amp;logoColor=white" style="max-width:100%;"></a>
 
+## 🔭 My personal projects:
+![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white) <br>
+[Play Store developer page](https://play.google.com/store/apps/dev?id=8090107179483981086)
+
+
 ## 📖🌱 Currently learning:
 [Native IOS development](https://iosdeveloper.com.br/inscricao?utm_campaign=ios)
 
@@ -17,6 +22,7 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 ## ⚡ Technologies & Tools:
 
 ![](https://img.shields.io/badge/Kotlin-2bbc8a?&style=for-the-badge&logo=kotlin&logoColor=white)
+![](https://img.shields.io/badge/Swift-2bbc8a?style=for-the-badge&logo=swift&logoColor=white)
 ![](https://img.shields.io/badge/Python-2bbc8a?style=for-the-badge&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/Java-2bbc8a?style=for-the-badge&logo=java&logoColor=white)
 ![](https://img.shields.io/badge/gradle-2bbc8a?style=for-the-badge&logo=gradle&logoColor=white)
@@ -34,7 +40,10 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 ![](https://img.shields.io/badge/IntelliJIDEA-2bbc8a.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![](https://img.shields.io/badge/Figma-2bbc8a?style=for-the-badge&logo=figma&logoColor=white)
 ![](https://img.shields.io/badge/Adobe%20Photoshop-2bbc8a?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)
-![](https://img.shields.io/badge/Zeplin-2bbc8a?style=for-the-badge&logo=Zeplin&logoColor=white)
+![](https://img.shields.io/badge/Zeplin-2bbc8a?style=for-the-badge&logo=zeplin&logoColor=white)
+![](https://img.shields.io/badge/Realm-2bbc8a?style=for-the-badge&logo=realm&logoColor=white)
+![](https://img.shields.io/badge/Xcode-2bbc8a?style=for-the-badge&logo=Xcode&logoColor=white)
+
 
 
 ## 📈 GitHub Stats:
