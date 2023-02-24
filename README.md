@@ -1,8 +1,7 @@
 
 ## Hi there 👋
 I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
-<p><img width="20%" alt="mobile development" src="https://user-images.githubusercontent.com/37637934/124315554-7ad87100-db4a-11eb-9417-2cd45c42ff84.png" ></p>
-
+<p><img width="20%" alt="mobile development gif" src="https://user-images.githubusercontent.com/37637934/221150680-b531dcbe-c9ff-4104-aad3-36fd98531704.gif"><img width="20%" alt="mobile android development gif" src="https://user-images.githubusercontent.com/37637934/221148978-929f846b-3296-496c-8d1a-41dc9182422e.gif"></p>
 
 ## 📫 Reach me: 
 <a href="https://www.linkedin.com/in/joaquimoliveiragomes/" rel="nofollow"><img src="https://camo.githubusercontent.com/6dc9828248fb64760c234f5b24c275a4912e9bb546c281d0c8e67cecb3381669/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c75653f7374796c653d666c6174266c6f676f3d4c696e6b6564696e266c6f676f436f6c6f723d7768697465" alt="Linkedin: joaquimoliveiragomes" data-canonical-src="https://img.shields.io/badge/-joaquimoliveiragomes-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/joaquimoliveiragomes/" style="max-width:100%;"></a>
