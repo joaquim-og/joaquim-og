@@ -4,23 +4,23 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 <p><img width="20%" alt="mobile development gif" src="https://user-images.githubusercontent.com/37637934/221150680-b531dcbe-c9ff-4104-aad3-36fd98531704.gif"><img width="20%" alt="mobile android development gif" src="https://user-images.githubusercontent.com/37637934/221148978-929f846b-3296-496c-8d1a-41dc9182422e.gif"></p>
 
 ## 📫 Reach me: 
-<a href="https://www.linkedin.com/in/joaquimoliveiragomes/" rel="nofollow"><img src="https://camo.githubusercontent.com/6dc9828248fb64760c234f5b24c275a4912e9bb546c281d0c8e67cecb3381669/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c75653f7374796c653d666c6174266c6f676f3d4c696e6b6564696e266c6f676f436f6c6f723d7768697465" alt="Linkedin: joaquimoliveiragomes" data-canonical-src="https://img.shields.io/badge/-joaquimoliveiragomes-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/joaquimoliveiragomes/" style="max-width:100%;"></a>
-<a href="https://github.com/joaquim-og"><img src="https://camo.githubusercontent.com/5c8c95ac48ba4bcc1018a7c80c530bcd4c82794d4655999472465b625e76a17e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769746875622d3030303f7374796c653d666c6174266c6f676f3d476974687562266c6f676f436f6c6f723d7768697465" alt="Github" data-canonical-src="https://img.shields.io/badge/-Github-000?style=flat&amp;logo=Github&amp;logoColor=white" style="max-width:100%;"></a>
-<a href="mailto:joaquim_og@hotmail.com"><img src="https://camo.githubusercontent.com/37a0a7efce77df18e02fbe00ec51bcbd8ae94a8b824143c4449c4977bf5b1d79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f75746c6f6f6b2d3030373844343f7374796c653d666c6174266c6f676f3d4d6963726f736f66742d4f75746c6f6f6b266c6f676f436f6c6f723d7768697465" alt="Outlook" data-canonical-src="https://img.shields.io/badge/-Outlook-0078D4?style=flat&amp;logo=Microsoft-Outlook&amp;logoColor=white" style="max-width:100%;"></a>
+<a href="https://www.linkedin.com/in/joaquimoliveiragomes/" rel="nofollow"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin: joaquimoliveiragomes" data-canonical-src="https://img.shields.io/badge/-joaquimoliveiragomes-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/joaquimoliveiragomes/" style="max-width:100%;"></a>
+<br>
+<a href="mailto:joaquim_og@hotmail.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Outlook" data-canonical-src="https://img.shields.io/badge/-Outlook-0078D4?style=flat&amp;logo=Microsoft-Outlook&amp;logoColor=white" style="max-width:100%;"></a>
 
 ## 🔭 My personal projects:
-![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white) <br>
+![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)<br>
 [Play Store developer page](https://play.google.com/store/apps/dev?id=8090107179483981086) <br>
 
 #### ⚙️ Last deployed apps ⚙️
 ##### Osiris
-[![Osiris Downloads](https://www.appbrain.com/shield/com.confradestech.osiris.svg)](https://www.appbrain.com/app/osiris/com.confradestech.osiris)
+[![Osiris Downloads](https://www.appbrain.com/shield/com.confradestech.osiris.svg)](https://play.google.com/store/apps/details?id=com.confradestech.osiris)
 
 ##### My daily humour / Meu humor diário
-[![My daily humour Downloads](https://www.appbrain.com/shield/com.confradesTech.myDailyHumor.svg)](https://www.appbrain.com/app/my-daily-humour/com.confradesTech.myDailyHumor)
+[![My daily humour Downloads](https://www.appbrain.com/shield/com.confradesTech.myDailyHumor.svg)](https://play.google.com/store/apps/details?id=com.confradesTech.myDailyHumor)
 
 ## 📖🌱 Currently learning:
-[Native IOS development](https://iosdeveloper.com.br/inscricao?utm_campaign=ios)
+[Native IOS development](https://iosdeveloper.com.br/inscricao?utm_campaign=ios) ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
 
 
 ## ⚡ Technologies & Tools:
