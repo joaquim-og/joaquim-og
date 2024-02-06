@@ -10,8 +10,14 @@ I'm Joaquim, mobile android developer <img width="2.5%" alt="passarao-lokera" sr
 
 ## 🔭 My personal projects:
 ![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white) <br>
-[Play Store developer page](https://play.google.com/store/apps/dev?id=8090107179483981086)
+[Play Store developer page](https://play.google.com/store/apps/dev?id=8090107179483981086) <br>
 
+#### ⚙️ Last deployed apps ⚙️
+##### Osiris
+[![Osiris Downloads](https://www.appbrain.com/shield/com.confradestech.osiris.svg)](https://www.appbrain.com/app/osiris/com.confradestech.osiris)
+
+##### My daily humour / Meu humor diário
+[![My daily humour Downloads](https://www.appbrain.com/shield/com.confradesTech.myDailyHumor.svg)](https://www.appbrain.com/app/my-daily-humour/com.confradesTech.myDailyHumor)
 
 ## 📖🌱 Currently learning:
 [Native IOS development](https://iosdeveloper.com.br/inscricao?utm_campaign=ios)
