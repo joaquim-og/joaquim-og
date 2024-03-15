@@ -1,7 +1,7 @@
 
 ## Hi there 👋
 I'm Joaquim, native mobile developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
-<p><img width="20%" alt="mobile development gif" src="https://user-images.githubusercontent.com/37637934/221150680-b531dcbe-c9ff-4104-aad3-36fd98531704.gif"><img width="20%" alt="mobile native development gif" src="https://github.com/joaquim-og/joaquim-og/assets/37637934/dfe63c81-7df8-4dd0-8da1-44e82709b234"></p>
+<p><img width="20%" alt="mobile development gif" src="https://user-images.githubusercontent.com/37637934/221150680-b531dcbe-c9ff-4104-aad3-36fd98531704.gif"><img width="20%" alt="mobile native development gif" src="https://github.com/joaquim-og/joaquim-og/assets/37637934/e4bc6a5f-fb8b-4ea7-9d39-72e9b93f24d8"></p>
 
 ## 📫 Reach me: 
 <a href="https://www.linkedin.com/in/joaquimoliveiragomes/" rel="nofollow"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin: joaquimoliveiragomes" data-canonical-src="https://img.shields.io/badge/-joaquimoliveiragomes-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/joaquimoliveiragomes/" style="max-width:100%;"></a>
