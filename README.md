@@ -13,6 +13,11 @@
 
 <a href="https://play.google.com/store/apps/details?id=com.confradestech.fisiochecks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/spotlight-dark.svg"><img src="assets/spotlight-light.svg" width="100%" alt="FisioChecks, my flagship app: a clinical calculator for respiratory physiotherapists and intensivists. 23 calculations, about 170 test files, 57 capability specs and a 5-job CI pipeline. Android and iOS."></picture></a>
 
+<p align="center">
+  <img src="assets/fisiochecks-demo.gif" width="270" alt="Screen recording of FisioChecks on Android: browsing the 23 calculations, opening Driving pressure, typing the values and reading the result.">
+  <br><sub>FisioChecks on Android: pick a calculation, type the values, read the result.</sub>
+</p>
+
 <p align="center"><sub>Get it on <a href="https://play.google.com/store/apps/details?id=com.confradestech.fisiochecks">Google Play</a> · <a href="https://apps.apple.com/br/app/fisiochecks/id6812398536">App Store</a></sub></p>
 
 ## 📱 More apps I designed, built and shipped
@@ -32,9 +37,16 @@
 
 <p align="center"><sub>Tap a card to open the app. Peaceful Dreams is also on the <a href="https://apps.apple.com/br/app/peaceful-dreams/id6529560161">App Store</a>.</sub></p>
 
+## 💬 What users say
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/review-my-daily-humour-dark.svg"><img src="assets/review-my-daily-humour-light.svg" width="49%" alt="Google Play review of My Daily Humour: Perfect for tracking how we feel day to day. Being able to add comments works like a diary to see our progress!"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/review-my-daily-humour-2-dark.svg"><img src="assets/review-my-daily-humour-2-light.svg" width="49%" alt="Google Play review of My Daily Humour: Great app idea, and it works well. Thanks for the app and great work."></picture>
+</p>
+
 ## 🛠️ What I build with
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Android: Kotlin, Jetpack Compose, Coroutines and Flow, Hilt, Koin, Room, WorkManager, CameraX, Material 3. iOS: Swift, SwiftUI, Combine, async/await, Swift Charts, SwiftData, MapKit, XCTest. Multiplatform: Kotlin Multiplatform, Compose Multiplatform, Ktor, SQLDelight, Room KMP, SKIE, kotlinx.serialization. Platform: Firebase, OAuth2 PKCE, SignalR, BLE, GraphQL, Play Billing, Sentry. Quality: GitHub Actions, Paparazzi, Roborazzi, detekt, SwiftLint, SonarQube, Gradle. AI-assisted: Claude Code, Gemini, OpenSpec, spec-driven development."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Android: Kotlin, Jetpack Compose, Coroutines and Flow, Hilt, Koin, Room, WorkManager, CameraX, Material 3. iOS: Swift, SwiftUI, Combine, async/await, Swift Charts, SwiftData, MapKit, XCTest. Multiplatform: Kotlin Multiplatform, Compose Multiplatform, Ktor, SQLDelight, Room KMP, SKIE, kotlinx.serialization. Platform: Firebase, OAuth2 PKCE, SignalR, BLE, GraphQL, Play Billing, Sentry. Quality: GitHub Actions, Paparazzi, Roborazzi, detekt, SwiftLint, SonarQube, Gradle, Bitrise, Bitbucket. AI-assisted: Claude Code, Gemini, OpenSpec, spec-driven development."></picture>
 
 ## 🎓 Always learning
 
@@ -44,6 +56,12 @@
 
 - 🩺 Growing **FisioChecks**, my clinical calculator for physiotherapists (KMP + Compose + SwiftUI)
 - 🤖 Working spec-first with AI agents (OpenSpec + Claude Code)
+
+## 📊 A year of commits
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg"><img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="My GitHub contributions over the last year, drawn as a 3D skyline"></picture>
+</p>
 
 ## 🐍 My contributions, eaten daily
 

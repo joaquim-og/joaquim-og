@@ -1,0 +1,22 @@
+{
+  "fisiochecks": {
+    "play": "com.confradestech.fisiochecks",
+    "version": "1.0.6",
+    "updated": "Oct 2026"
+  },
+  "peaceful-dreams": {
+    "play": "com.confradesTech.peacefuldreams.android",
+    "version": "1.0",
+    "updated": "Aug 2024"
+  },
+  "osiris": {
+    "play": "com.confradestech.osiris",
+    "version": "1.0.2.18",
+    "updated": "Jun 2024"
+  },
+  "my-daily-humour": {
+    "play": "com.confradesTech.myDailyHumor",
+    "version": "1.0.6",
+    "updated": "Nov 2023"
+  }
+}

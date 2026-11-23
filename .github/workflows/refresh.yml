@@ -1,0 +1,36 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read live app data from Google Play
+        run: python3 src/fetch_store.py
+
+      - name: Redraw the profile graphics
+        run: python3 src/build.py
+
+      - name: Draw the 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit what changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets src/store.json profile-3d-contrib
+          git diff --cached --quiet || git commit -m "chore(profile): refresh live data and contribution graph"
+          git push

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generates the SVG assets for the GitHub profile README (hero banner, app cards, footer)."""
 import base64
+import json
 import pathlib
 from xml.sax.saxutils import escape
 
@@ -8,6 +9,14 @@ ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT.parent / "assets"
 OUT.mkdir(exist_ok=True)
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
+
+STORE = json.loads((ROOT / "store.json").read_text())
+
+
+def live(app_id):
+    d = STORE.get(app_id)
+    return f"v{d['version']} · updated {d['updated']}" if d else None
+
 
 THEMES = {
     "dark": dict(card="#161b22", border="#30363d", text="#e6edf3", muted="#9198a1", chip="#21262d",
@@ -80,6 +89,14 @@ def chip_row(items, x, y, t, size=11, pad=9, h=22, fill=None, color=None, stroke
     return "\n".join(out), cx
 
 
+def live_tag(app, t, W):
+    txt = live(app["id"])
+    if not txt:
+        return ""
+    return (f'<circle cx="{W-20-len(txt)*5.75-10}" cy="144.5" r="3" fill="#3fb950"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>'
+            f'<text x="{W-20}" y="148" font-size="10.5" font-weight="600" text-anchor="end" fill="{t["muted"]}">{escape(txt)}</text>')
+
+
 def card(app, theme):
     t = THEMES[theme]
     W, H = 420, 196
@@ -104,6 +121,7 @@ def card(app, theme):
 </g>
 {icon}
 <text x="108" y="48" font-size="19" font-weight="700" fill="{t['text']}">{escape(app['name'])}</text>
+{live_tag(app, t, W)}
 <text x="108" y="70" font-size="12.5" fill="{t['muted']}">{escape(app['pitch'][0])}</text>
 <text x="108" y="87" font-size="12.5" fill="{t['muted']}">{escape(app['pitch'][1])}</text>
 {chips}
@@ -127,6 +145,10 @@ def phone(x, y, rot, icon, label, accent, t, delay, scale=1.0):
 </g></g>'''
 
 
+TAGLINES = ["I build mobile apps people can download today.", "From first sketch to the store, solo.",
+            "One Kotlin core, native on Android and iOS.", "Spec-first, with AI agents on the team."]
+
+
 def hero(theme):
     t = THEMES[theme]
     W, H = 1280, 400
@@ -148,9 +170,11 @@ def hero(theme):
 <style>
 .float{{animation:float 7s ease-in-out infinite}}
 .orb{{animation:drift 14s ease-in-out infinite alternate}}
+.tg{{opacity:0;animation:tg 16s linear infinite}}
+@keyframes tg{{0%{{opacity:0;transform:translateY(8px)}}3%{{opacity:1;transform:translateY(0)}}22%{{opacity:1;transform:translateY(0)}}25%{{opacity:0;transform:translateY(-8px)}}100%{{opacity:0}}}}
 @keyframes float{{0%,100%{{transform:translateY(0)}}50%{{transform:translateY(-9px)}}}}
 @keyframes drift{{from{{transform:translate(0,0)}}to{{transform:translate(40px,-24px)}}}}
-@media (prefers-reduced-motion:reduce){{.float,.orb{{animation:none}}}}
+@media (prefers-reduced-motion:reduce){{.float,.orb,.tg{{animation:none}}.tg:first-of-type{{opacity:1}}}}
 </style>
 </defs>
 <g clip-path="url(#frame)">
@@ -161,7 +185,7 @@ def hero(theme):
 <rect width="{W}" height="{H}" fill="url(#dots)"/>
 <text x="72" y="112" font-size="20" font-weight="600" letter-spacing="3" fill="{t['hero_muted']}">HI, I’M</text>
 <text x="70" y="182" font-size="68" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Joaquim Gomes</text>
-<text x="72" y="226" font-size="24" font-weight="500" fill="{t['hero_text']}">I build mobile apps people can download today.</text>
+{"".join(f'<text class="tg" style="animation-delay:{-((4 - i) % 4) * 4}s" x="72" y="226" font-size="24" font-weight="500" fill="{t["hero_text"]}">{escape(line)}</text>' for i, line in enumerate(TAGLINES))}
 {pills}
 <text x="72" y="346" font-size="17" fill="{t['hero_muted']}">Mobile Engineer  ·  Android  ·  iOS  ·  Kotlin Multiplatform</text>
 {phone(820, 92, -9, os_, "a", "#4ade80", t, 0, 0.86).replace("#pc", "#pc")}
@@ -199,8 +223,8 @@ STACK = [
         ("Ktor", "ktor"), ("SQLDelight", "sqlite"), ("Room KMP", None), ("SKIE", None), ("kotlinx.serialization", None)]),
     ("Platform", "#fbbf24", "firebase", [("Firebase", "firebase"), ("OAuth2 / PKCE", None), ("SignalR", None), ("BLE", None),
         ("GraphQL", "graphql"), ("Play Billing", "googleplay"), ("Sentry", "sentry")]),
-    ("Quality", "#fb7185", "githubactions", [("GitHub Actions", "githubactions"), ("Paparazzi", None), ("Roborazzi", None),
-        ("detekt", None), ("SwiftLint", None), ("SonarQube", "sonarqubeserver"), ("Gradle", "gradle")]),
+    ("Quality & delivery", "#fb7185", "githubactions", [("GitHub Actions", "githubactions"), ("Paparazzi", None), ("Roborazzi", None),
+        ("detekt", None), ("SwiftLint", None), ("SonarQube", "sonarqubeserver"), ("Gradle", "gradle"), ("Bitrise", "bitrise"), ("Bitbucket", "bitbucket")]),
     ("AI-assisted", "#2dd4bf", "claude", [("Claude Code", "claude"), ("Gemini", "googlegemini"), ("OpenSpec", None),
         ("Spec-driven development", None)]),
 ]
@@ -302,6 +326,8 @@ def spotlight(theme):
 <image href="{data_uri("fisiochecks.png")}" x="28" y="30" width="60" height="60" clip-path="url(#ic)"/>
 <rect x="102" y="32" width="74" height="19" rx="9.5" fill="{a}22" stroke="{a}66"/>
 <text x="139" y="45.5" font-size="10" font-weight="700" letter-spacing="1.2" text-anchor="middle" fill="{a if theme=="dark" else t["text"]}">FLAGSHIP</text>
+<circle cx="190" cy="41.5" r="3" fill="#3fb950"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="199" y="45.5" font-size="10.5" font-weight="600" fill="{t['muted']}">{escape(live("fisiochecks"))}</text>
 <text x="101" y="82" font-size="27" font-weight="800" letter-spacing="-0.5" fill="{t['text']}">FisioChecks</text>
 <text x="28" y="116" font-size="13" fill="{t['muted']}">Clinical calculator for respiratory</text>
 <text x="28" y="133" font-size="13" fill="{t['muted']}">physiotherapists and intensivists. Formulas</text>
@@ -392,3 +418,52 @@ for theme in THEMES:
     for name, fn in [("spotlight", spotlight), ("highlights", highlights), ("app-earlier", earlier), ("certs", certs), ("contact", contact)]:
         (OUT / f"{name}-{theme}.svg").write_text(fn(theme), encoding="utf8")
         print(f"{name}-{theme}.svg {(OUT / f'{name}-{theme}.svg').stat().st_size/1024:.1f} KB")
+
+
+# ---------------------------------------------------------------- user reviews
+REVIEWS = [
+    ("my-daily-humour", "My Daily Humour", "#fb7185",
+     "Perfeito para monitorar como a gente se sente no dia a dia. A opção de poder colocar comentários serve muito como um diário para vermos nossa evolução!",
+     "Perfect for tracking how we feel day to day. Being able to add comments works like a diary to see our progress!"),
+    ("my-daily-humour-2", "My Daily Humour", "#fb7185",
+     "Ótima ideia de aplicativo e que funciona bem. […] Obrigada pelo APP e ótimo trabalho.",
+     "Great app idea, and it works well. […] Thanks for the app and great work."),
+]
+
+
+def wrap(text, n):
+    lines, cur = [], ""
+    for word in text.split():
+        if len(cur) + len(word) + 1 > n and cur:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = (cur + " " + word).strip()
+    return lines + [cur]
+
+
+def review(r, theme):
+    t = THEMES[theme]
+    _, app, a, quote, english = r
+    W, y, body = 420, 70, []
+    for line in wrap(quote, 54):
+        body.append(f'<text x="24" y="{y}" font-size="13.5" font-weight="500" fill="{t["text"]}">{escape(line)}</text>')
+        y += 20
+    y += 4
+    for line in wrap(english, 62):
+        body.append(f'<text x="24" y="{y}" font-size="11.5" font-style="italic" fill="{t["muted"]}">{escape(line)}</text>')
+        y += 16
+    H = 196
+    inner = f'''<g clip-path="url(#cc)"><rect x="{W-260}" y="-10" width="270" height="200" fill="url(#gl)"/><rect width="{W}" height="3" fill="url(#bar)"/></g>
+<text x="20" y="56" font-size="46" font-weight="800" fill="{a}" opacity="0.55">“</text>
+{"".join(body)}
+<text x="24" y="{H-20}" font-size="11.5" font-weight="700" fill="{a if theme == "dark" else t["text"]}">{escape(app)}</text>
+<text x="{W-20}" y="{H-20}" font-size="11" font-weight="600" text-anchor="end" fill="{t["muted"]}">Google Play review · Brazil</text>'''
+    defs = (f'<radialGradient id="gl" cx="1" cy="0" r="1"><stop offset="0" stop-color="{a}" stop-opacity="0.18"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></radialGradient>'
+            f'<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></linearGradient>')
+    return frame(W, H, t, inner, defs, f"Google Play review of {app}: {english}")
+
+
+for theme in THEMES:
+    for r in REVIEWS:
+        (OUT / f"review-{r[0]}-{theme}.svg").write_text(review(r, theme), encoding="utf8")
