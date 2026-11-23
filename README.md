@@ -1,83 +1,63 @@
+<a href="https://play.google.com/store/apps/dev?id=8090107179483981086">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Joaquim Gomes, Mobile Engineer: Android, iOS and Kotlin Multiplatform. I build mobile apps people can download today."></picture>
+</a>
 
-## Hi there 👋
-I'm Joaquim, native mobile developer <img width="2.5%" alt="passarao-lokera" src="https://user-images.githubusercontent.com/37637934/124292687-3a69fa80-db2c-11eb-9843-91b31c69e8bb.gif" >  from Brazil 🚀 🌴 🌄
-<p><img width="20%" alt="mobile development gif" src="https://user-images.githubusercontent.com/37637934/221150680-b531dcbe-c9ff-4104-aad3-36fd98531704.gif"><img width="20%" alt="mobile native development gif" src="https://github.com/joaquim-og/joaquim-og/assets/37637934/e4bc6a5f-fb8b-4ea7-9d39-72e9b93f24d8"></p>
+<p align="center">
+  <a href="https://play.google.com/store/apps/dev?id=8090107179483981086"><img src="https://img.shields.io/badge/Google_Play-my_apps-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="My apps on Google Play"></a>
+  <a href="https://apps.apple.com/br/developer/confradestech-tecnologia-ltda/id1756568487?l=en-GB"><img src="https://img.shields.io/badge/App_Store-my_apps-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="My apps on the App Store"></a>
+</p>
 
-## 📫 Reach me: 
-<a href="https://www.linkedin.com/in/joaquimoliveiragomes/" rel="nofollow"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin: joaquimoliveiragomes" data-canonical-src="https://img.shields.io/badge/-joaquimoliveiragomes-blue?style=flat-square&amp;logo=Linkedin&amp;logoColor=white&amp;link=https://www.linkedin.com/in/joaquimoliveiragomes/" style="max-width:100%;"></a>
-<br>
-<a href="mailto:joaquim_og@hotmail.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Outlook" data-canonical-src="https://img.shields.io/badge/-Outlook-0078D4?style=flat&amp;logo=Microsoft-Outlook&amp;logoColor=white" style="max-width:100%;"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/highlights-dark.svg"><img src="assets/highlights-light.svg" width="100%" alt="7 apps on Google Play. 2 apps on the App Store. 5K+ downloads on My Daily Humour."></picture>
 
-## 🔭 My personal projects:
-![](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)<br>
-[Play Store developer page](https://play.google.com/store/apps/dev?id=8090107179483981086) <br>
+## 🩺 Spotlight: FisioChecks
 
-#### ⚙️ Last deployed apps ⚙️
-##### Osiris
-[![Osiris Downloads](https://www.appbrain.com/shield/com.confradestech.osiris.svg)](https://play.google.com/store/apps/details?id=com.confradestech.osiris)
+<a href="https://play.google.com/store/apps/details?id=com.confradestech.fisiochecks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/spotlight-dark.svg"><img src="assets/spotlight-light.svg" width="100%" alt="FisioChecks, my flagship app: a clinical calculator for respiratory physiotherapists and intensivists. 23 calculations, about 170 test files, 57 capability specs and a 5-job CI pipeline. Android and iOS."></picture></a>
 
-##### My daily humour / Meu humor diário
-[![My daily humour Downloads](https://www.appbrain.com/shield/com.confradesTech.myDailyHumor.svg)](https://play.google.com/store/apps/details?id=com.confradesTech.myDailyHumor) <br><br>
- 
-#### ⚙️ Personal learning ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) Projects ⚙️
-[IOS Habits](https://github.com/joaquim-og/IOS_Habit) <br><be>
-[IOS Chat](https://github.com/joaquim-og/IOS-IChat) <br><be>
+<p align="center"><sub>Get it on <a href="https://play.google.com/store/apps/details?id=com.confradestech.fisiochecks">Google Play</a> · <a href="https://apps.apple.com/br/app/fisiochecks/id6812398536">App Store</a></sub></p>
 
+## 📱 More apps I designed, built and shipped
 
-## 📖🌱 Currently learning:
-[Kotlin Multiplatform Mobile](https://pl-coding.com/building-industry-level-multiplatform-apps-with-kmm/)
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.confradesTech.peacefuldreams.android"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-peaceful-dreams-dark.svg"><img src="assets/app-peaceful-dreams-light.svg" width="49%" alt="Peaceful Dreams: relaxing-sounds player with a 100% shared Compose Multiplatform UI. Android and iOS."></picture></a>
+  <a href="https://play.google.com/store/apps/details?id=com.confradestech.osiris"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-osiris-dark.svg"><img src="assets/app-osiris-light.svg" width="49%" alt="Osiris: diagnoses plant diseases from a photo, powered by Google Gemini. Android, 1K+ downloads."></picture></a>
+</p>
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.confradesTech.myDailyHumor"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-my-daily-humour-dark.svg"><img src="assets/app-my-daily-humour-light.svg" width="49%" alt="My Daily Humour: mood tracker to log how you feel, day after day. Android, 5K+ downloads."></picture></a>
+  <a href="https://github.com/joaquim-og/shiftskin"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-shiftskin-dark.svg"><img src="assets/app-shiftskin-light.svg" width="49%" alt="ShiftSkin: AI skin analysis for people who work outdoors. Built solo in one week for a hackathon, 284 tests."></picture></a>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-waterly-dark.svg"><img src="assets/app-waterly-light.svg" width="49%" alt="Waterly: water-quality and biodiversity companion app, built in 2023."></picture>
+  <a href="https://play.google.com/store/apps/dev?id=8090107179483981086"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/app-earlier-dark.svg"><img src="assets/app-earlier-light.svg" width="49%" alt="Where it started, 2020 to 2021: Meus Atendimentos, Curatela Fácil and Como cuidar da minha máscara, on Google Play."></picture></a>
+</p>
 
+<p align="center"><sub>Tap a card to open the app. Peaceful Dreams is also on the <a href="https://apps.apple.com/br/app/peaceful-dreams/id6529560161">App Store</a>.</sub></p>
 
-## ⚡ Technologies & Tools:
+## 🛠️ What I build with
 
-![](https://img.shields.io/badge/Kotlin-2bbc8a?&style=for-the-badge&logo=kotlin&logoColor=white)
-![](https://img.shields.io/badge/Swift-2bbc8a?style=for-the-badge&logo=swift&logoColor=white)
-![](https://img.shields.io/badge/Python-2bbc8a?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Java-2bbc8a?style=for-the-badge&logo=java&logoColor=white)
-![](https://img.shields.io/badge/gradle-2bbc8a?style=for-the-badge&logo=gradle&logoColor=white)
-![](https://img.shields.io/badge/GraphQl-2bbc8a?style=for-the-badge&logo=graphql&logoColor=white)
-![](https://img.shields.io/badge/firebase-2bbc8a?style=for-the-badge&logo=firebase&logoColor=white)
-![](https://img.shields.io/badge/Amazon_AWS-2bbc8a?style=for-the-badge&logo=amazonaws&logoColor=white)
-![](https://img.shields.io/badge/GitHub-2bbc8a?style=for-the-badge&logo=github&logoColor=white)
-![](https://img.shields.io/badge/Sonar%20cloud-2bbc8a?style=for-the-badge&logo=sonarcloud&logoColor=white)
-![](https://img.shields.io/badge/Jenkins-2bbc8a?style=for-the-badge&logo=Jenkins&logoColor=white)
-![](https://img.shields.io/badge/Jira-2bbc8a?style=for-the-badge&logo=Jira&logoColor=white)
-![](https://img.shields.io/badge/Django-2bbc8a?style=for-the-badge&logo=django&logoColor=white)
-![](https://img.shields.io/badge/Tools-Sentry-informational?style=flat&logo=Sentry&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Android_Studio-2bbc8a?style=for-the-badge&logo=android-studio&logoColor=white)
-![](https://img.shields.io/badge/Visual_Studio_Code-2bbc8a?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![](https://img.shields.io/badge/IntelliJIDEA-2bbc8a.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![](https://img.shields.io/badge/Figma-2bbc8a?style=for-the-badge&logo=figma&logoColor=white)
-![](https://img.shields.io/badge/Adobe%20Photoshop-2bbc8a?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)
-![](https://img.shields.io/badge/Zeplin-2bbc8a?style=for-the-badge&logo=zeplin&logoColor=white)
-![](https://img.shields.io/badge/Realm-2bbc8a?style=for-the-badge&logo=realm&logoColor=white)
-![](https://img.shields.io/badge/Xcode-2bbc8a?style=for-the-badge&logo=Xcode&logoColor=white)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Android: Kotlin, Jetpack Compose, Coroutines and Flow, Hilt, Koin, Room, WorkManager, CameraX, Material 3. iOS: Swift, SwiftUI, Combine, async/await, Swift Charts, SwiftData, MapKit, XCTest. Multiplatform: Kotlin Multiplatform, Compose Multiplatform, Ktor, SQLDelight, Room KMP, SKIE, kotlinx.serialization. Platform: Firebase, OAuth2 PKCE, SignalR, BLE, GraphQL, Play Billing, Sentry. Quality: GitHub Actions, Paparazzi, Roborazzi, detekt, SwiftLint, SonarQube, Gradle. AI-assisted: Claude Code, Gemini, OpenSpec, spec-driven development."></picture>
 
+## 🎓 Always learning
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/certs-dark.svg"><img src="assets/certs-light.svg" width="100%" alt="Recent courses: iOS Development Masterclass 2027 (Udemy, Oct 2026), AI Engineer Core Track (Udemy, Sep 2026), Building Industry-Level Compose Multiplatform Apps (PL Coding, Aug 2026), Claude Code: The Practical Guide (Udemy, Aug 2026)."></picture>
 
-## 📈 GitHub Stats:
-<img align="center" alt="Anurag's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=joaquim-og&count_private=true&show_icons=true&theme=onedark" style="max-width:100%;"/>
+## ⚡ Right now
 
-<img align="center" alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaquim-og&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3&layout=compact&hide=Java" style="max-width:100%;"/>
-<!-- 
-<img align="center" alt="willianrod's wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=@3e95d67e-e7dd-47ef-8d13-a00eb6f1db76&layout=compact" style="max-width:100%;"/> -->
+- 🩺 Growing **FisioChecks**, my clinical calculator for physiotherapists (KMP + Compose + SwiftUI)
+- 🤖 Working spec-first with AI agents (OpenSpec + Claude Code)
 
-<!-- <img align="left" alt="Visits Badge" src="https://badges.pufler.dev/visits/joaquim-og/joaquim-og" style="max-width:100%;"/> -->
+## 🐍 My contributions, eaten daily
 
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaquim-og/joaquim-og/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/joaquim-og/joaquim-og/output/snake.svg" width="100%" alt="Animated snake eating my GitHub contribution graph"></picture>
+</p>
 
-<!--
-**joaquim-og/joaquim-og** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://www.linkedin.com/in/joaquimoliveiragomes/">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg"><img src="assets/contact-light.svg" width="100%" alt="Let's build something. Open to Android, iOS and Kotlin Multiplatform roles. Remote from Brasília, Brazil, UTC-3."></picture>
+</a>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://www.linkedin.com/in/joaquimoliveiragomes/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:joaquim_og@hotmail.com"><img src="https://img.shields.io/badge/Email-say_hi-8B5CF6?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-https://github.com/alexandresanlim/Badges4-README.md-Profile
--->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img src="assets/footer-light.svg" width="100%" alt=""></picture>
