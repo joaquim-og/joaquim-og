@@ -57,17 +57,6 @@
 - 🩺 Growing **FisioChecks**, my clinical calculator for physiotherapists (KMP + Compose + SwiftUI)
 - 🤖 Working spec-first with AI agents (OpenSpec + Claude Code)
 
-## 📊 A year of commits
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg"><img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="My GitHub contributions over the last year, drawn as a 3D skyline"></picture>
-</p>
-
-## 🐍 My contributions, eaten daily
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joaquim-og/joaquim-og/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/joaquim-og/joaquim-og/output/snake.svg" width="100%" alt="Animated snake eating my GitHub contribution graph"></picture>
-</p>
 
 <a href="https://www.linkedin.com/in/joaquimoliveiragomes/">
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg"><img src="assets/contact-light.svg" width="100%" alt="Let's build something. Open to Android, iOS and Kotlin Multiplatform roles. Remote from Brasília, Brazil, UTC-3."></picture>
